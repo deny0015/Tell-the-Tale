@@ -1,0 +1,68 @@
+/*  Brad's CSS file  */
+/*License for 'Action Man'
+Iconian Fonts License*/
+ @font-face {
+    font-family: 'action_manregular'; url('Action_Man-webfont.woff') format('woff'),
+    font-weight: normal;font-style: normal;}
+body { font-family: 'action_manregular', verdana, arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: AntiqueWhite; }
+div#welcome { width: 900px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 10px;
+margin-bottom: 10px;}
+div#tips { width: 1200px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 10px;
+margin-bottom: 10px;}
+
+body.home header {background: AntiqueWhite url(images/banner.png) no-repeat; }
+body.tips header {background: AntiqueWhite url(images/banner.png) no-repeat; }
+body.contact header {background: AntiqueWhite url(images/banner.png) no-repeat; }
+body.about header {background: AntiqueWhite url(images/banner.png) no-repeat; }
+body.stories header {background: AntiqueWhite url(images/banner.png) no-repeat; }
+
+nav {float:right}
+     width: 180px; 
+	 margin-right: 20px:
+     padding-right: 10px; }
+footer {clear: both;
+        padding: 10px; 
+        font-size 75%;
+        height: 1% ;
+        background-color: #0000ff;
+     color: #ffffff;
+border-top: 2px dotted #464646; }	 
+footer p { width: 1600px ; margin-bottom: 0; }
+
+footer a:link {color:orange; }
+footer a:hover, footer a:focus, footer a:active { background-color:transparent;
+    
+/*header {display: block;}	
+h1, h2,h3 {font-family: georgia, garamond, serif;
+           font-weight: normal; }
+
+h1 {font-size: 160%; }
+h2 {font-size: 130%; }
+h3 {font-size: 120%; }
+
+div#welcome { width: 1200px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              background-color: PowderBlue;
+background-image: url(images/agedpaper.png);}
+div#quotes { width: 1200px; height: 790px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+background-color: PowderBlue;}*/
+
+
